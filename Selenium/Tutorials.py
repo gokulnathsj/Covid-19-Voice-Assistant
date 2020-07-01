@@ -19,7 +19,7 @@ driver = webdriver.Chrome(PATH)
 #-----------------------------
 # Tutorial 1 and 2
 #-----------------------------
-'''
+
 
 driver.get("https://techwithtim.net")
 print(driver.title)
@@ -45,10 +45,10 @@ except:
 
 # time.sleep(5)   # wait for 5 seconds
 # driver.quit()
-'''
+
 
 #---------------------------
-# Tutorial 2
+# Tutorial 3
 #---------------------------
 
 '''
@@ -77,7 +77,7 @@ finally:
 '''
 
 #---------------------------
-# Tutorial 3
+# Tutorial 4
 #---------------------------
 '''
 driver.get("https://orteil.dashnet.org/cookieclicker/")
