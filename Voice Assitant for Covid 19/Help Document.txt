@@ -1,0 +1,78 @@
+Covid 19 voice assistant help document
+--------------------------------------
+
+
+
+Packages to be installed
+------------------------
+
+1. selenium
+2. calender
+3. time
+4. scikitLearn
+5. speech_recognition
+6. pyaudio
+7. pickle
+8. datetime
+
+software to be installed
+------------------------
+Here I am using chrome as the browser. So the latest version of chromedriver(which matches your chrome version) needs to be installed.
+The link is for the installation file is available at https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+
+
+How to use it
+-------------
+
+The main file is that needs to be run is voice_activation.py. 
+
+Initially there will be an option whether to update the files with the current number of covid data.
+So we may need to give 'y' for the getting the latest update. Don't need to update it all the time you. once in every 1 hr is more than enough.
+
+While updating the file, please avoid touching the mouse. These may lead to inaccurate results.
+Also in some rare cases the program will give error if the mouse is moved.
+
+The covid assistant has two parts
+
+a. Statistical interface
+	command much include "statistical Inferface"
+	Here you can get the details of the current situation. It can give the 
+	"active" , "total", "death", "recovered" cases in india.
+	
+	The state wise details is also provided if spoken with the name of the state.
+	The district details are not included.
+
+	For example, one can say,
+        "get the current details in India."
+	"what is the total cases in kerala"
+	"How many death cases are there in karnataka"
+	"How many of them recovered in Maharastra"
+	"What is the active cases in Gujarath"
+
+	These sentences will fetch the corresponding details the use want by voice messages
+
+
+b. graphical interface
+	command much include "graphical Inferface"
+	Here you can get the details of the current situation. It can give the 
+	"active" , "total", "death", "recovered" cases in india which will be availabe in a graphical format.
+
+	The statewise and districtwise details are not included.
+
+	For example, one can say,
+        "get the current details in India."
+	"graph for active cases in India"
+	"plot the death in the country"
+	"plot the recovered curve"
+
+	These sentences will fetch the corresponding details the user want by showing the graphs
+	
+	For procceding further, the graph must be closed
+
+For closing the voice assitant
+command "terminate" is used to close the voice assistant.
+
+The demonstation video is availabe in the google drive link - https://drive.google.com/file/d/1EDrSFhkHw5xU12kUSYSyRL9J0Y0TWGyq/view?usp=sharing
+
+
